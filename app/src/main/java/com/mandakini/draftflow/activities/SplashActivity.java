@@ -32,8 +32,7 @@ public class SplashActivity extends AppCompatActivity {
         animator.start();
 
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            startActivity(new Intent(SplashActivity.this, MainActivity.class));
-            finish();
+            startActivity(new Intent(SplashActivity.this, Onboarding1Activity.class));            finish();
         }, SPLASH_DELAY);
     }
 }

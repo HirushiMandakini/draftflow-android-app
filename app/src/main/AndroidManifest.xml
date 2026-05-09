@@ -23,6 +23,38 @@
         <activity
             android:name=".activities.MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".activities.Onboarding1Activity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.Onboarding2Activity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.Onboarding3Activity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.NewDraftActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.DraftDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.EditDraftActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SearchActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.BulkActionsActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
